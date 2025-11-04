@@ -1,0 +1,52 @@
+1) Legitimate
+
+From: customers@utilitybank.example.com
+
+Subject: Your UtilityBank monthly statement is ready
+
+Hello Aashish,
+
+Your monthly account statement is now available. To view your statement and recent transactions, please sign in to your UtilityBank online account:
+
+https://utilitybank.example.com/account/statements
+
+If you did not request this, please contact our customer support on 1800-123-456.
+
+Thanks,
+UtilityBank Customer Support
+
+
+2) Phishing
+
+From: security-alerts@utilitybank.example.com
+
+Subject: URGENT: Verify your account NOW or it will be suspended
+
+Dear Customer,
+
+We detected suspicious activity on your account. To avoid suspension, verify your account immediately by clicking the link below and completing the verification form:
+
+http://utility-bank-security.example.com/verify-account
+
+Complete verification within 24 hours or your account will be locked.
+
+— Security Team
+
+
+3) Tricky phishing 
+
+From: support@alerts.example.com
+
+Subject: Important: Unusual sign-in attempt — please confirm
+
+Hi Aashish,
+
+We noticed a sign-in attempt from a new device. If this was you, please confirm your identity by visiting the secure link below:
+
+<a href="http://secure-login.utilitybank-login.example.com/confirm">https://www.utilitybank.example.com/confirm
+</a>
+
+If you don’t confirm within 12 hours, we’ll require additional verification the next time you sign in.
+
+Sincerely,
+UtilityBank Support
