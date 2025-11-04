@@ -1,4 +1,4 @@
-**Phishing Email and URL Detector**
+Phishing Email and URL Detector
 
 
 
@@ -6,7 +6,7 @@ This project contains a machine learning system designed to detect phishing atte
 
 
 
-**Project Structure**
+Project Structure
 
 The project is organized into a clean, easy-to-navigate folder structure:
 
@@ -32,7 +32,7 @@ phishing-detector/
 
 │
 
-├── api.py
+├── phishnetweb.py
 
 ├── requirements.txt
 
@@ -40,9 +40,9 @@ phishing-detector/
 
 
 
-**Files** 
+Files
 
--api.py: The main, interactive script that loads the trained models and performs predictions on new emails provided by the user.
+-phishnetweb.py: The main, interactive script that loads the trained models and performs predictions on new emails provided by the user.
 
 -data/: Contains the original `.csv` datasets used for training the models.
 
@@ -54,11 +54,16 @@ phishing-detector/
 
 
 
-**To get started,** follow these steps:
+To get started, follow these steps:
 
 
 
 1\. Set up the Environment
+
+for ubuntu users
+sudo apt update
+sudo apt install python3 python3-pip python3-venv git -y
+##making sure the device has all python, git and virtual environment packages 
 
 Make sure you have Python 3 installed. Then, navigate to the project's root directory in your terminal and run the following command to install all required libraries:
 
@@ -66,10 +71,12 @@ Make sure you have Python 3 installed. Then, navigate to the project's root dire
 
 pip install -r requirements.txt
 
+pip install -r requirementsforubu.txt
 
 
-2\. Run the api.py script
+2\. Run the phishnetweb.py script
 
+streamlit run phishnetweb.py
 
 
 3\. Test an email
