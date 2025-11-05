@@ -67,9 +67,14 @@ sudo apt install python3 python3-pip python3-venv git -y
 
 Make sure you have Python 3 installed. Then, navigate to the project's root directory in your terminal and run the following command to install all required libraries:
 
+create a virtual environment(recommended)
+# Create a virtual environment named 'venv' inside your project folder
+python3 -m venv venv
+
+# Activate the environment
+source venv/bin/activate
 
 
-pip install -r requirements.txt
 
 pip install -r requirementsforubu.txt
 
