@@ -20,18 +20,6 @@ phishing-detector/
 
 │
 
-├── models/
-
-│   ├── email\_classifier\_model.joblib
-
-│   ├── email\_classifier\_vectorizer.joblib
-
-│   ├── phishing\_url\_detector\_features.joblib
-
-│   ├── phishing\_url\_detector\_model.joblib
-
-│
-
 ├── phishnetweb.py
 
 ├── train.py
@@ -50,7 +38,6 @@ Files
 
 -data/: Contains the original `.csv` datasets used for training the models.
 
--models/`\*\*: Contains the four final, saved model files (`.joblib`) required for prediction.
 
 -requirements.txt: A list of all necessary Python libraries to run the project.
 
